@@ -36,7 +36,7 @@ const HorizontalTimeline = () => {
 
   return (
     <div className="relative">
-      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-500 w-20 h-20 rounded-full flex items-center justify-center">
+      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-500 w-10 h-10 rounded-full flex items-center justify-center">
         <span className="text-white font-bold text-lg">{currentTime}</span>
       </div>
       <div
